@@ -9,6 +9,7 @@ tileReduce({
   bbox: [-122.05862045288086, 36.93768132842635, -121.97296142578124, 37.00378647456494],
   zoom: 15,
   map: path.join(__dirname, '/count.py'),  // Calling python script
+  workerCommand: 'python',
   sources: [{name: 'osm', mbtiles: path.join(__dirname, '../../tests/fixtures/osm.mbtiles'), raw: true}]
 })
 .on('reduce', function(num) {
