@@ -43,5 +43,6 @@ if __name__ == '__main__':
     BuildingRoadCount.main()
 ```
 
-The reduce script is identical as the original Node example except the `map`
-argument is now the path to the Python map script.
+The reduce script is identical as the original Node example except:
+* An additional argument `workerCommand` is set to 'python'
+* The `map` argument is now the path to the Python map script
