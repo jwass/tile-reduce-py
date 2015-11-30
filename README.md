@@ -13,7 +13,7 @@ Usage
 First read the documentation at [tile-reduce](https://github.com/mapbox/tile-reduce).
 
 `tile-reduce-py` allows you to write the map script in Python. The reducer is
-still Javascript.
+still Javascript. These examples require a modification to tile-reduce (see: https://github.com/mapbox/tile-reduce/pull/68)
 
 ```
 import mapbox_vector_tile
