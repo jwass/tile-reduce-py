@@ -22,7 +22,7 @@ setup(name='tilereduce',
       include_package_data=True,
       zip_safe=False,
       install_requires=[
-          'mapbox-vector-tile',
+          'mapbox-vector-tile>=0.1.0',
       ],
       extras_require={
           'test': ['pytest'],

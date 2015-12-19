@@ -8,8 +8,7 @@ class TRBuildingCount(tilereduce.TR):
         if data is None:
             return 0
 
-        td = mapbox_vector_tile.decoder.TileData(2048)
-        tile = td.getMessage(data)
+        tile = mapbox_vector_tile.decode(data)
 
         count = 0
         if tile.get('buildings'):
